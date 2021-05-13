@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Medicare Application Test Suite">
+
+	<listeners>
+		<listener class-name="com.medicare.qa.ExtentReportListener.ExtentReporterNG" /> 
+	</listeners>
+
+   <test name = "Medicare Application TestCases">
+      <classes> 
+         <class name = "com.medicare.qa.testcases.LoginPageTest"/>
+         <class name = "com.medicare.qa.testcases.UserLoginHomeTest"/>
+         <class name = "com.medicare.qa.testcases.AboutPageTest"/>
+         <class name = "com.medicare.qa.testcases.ContactPageTest"/>
+         <class name = "com.medicare.qa.testcases.ViewProductsPageTest"/>
+         <class name = "com.medicare.qa.testcases.OrderConfirmTest"/>
+         <class name = "com.medicare.qa.testcases.NewUserRegistrationTest"/>
+         
+      </classes>
+   </test>
+</suite>

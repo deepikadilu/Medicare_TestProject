@@ -1,0 +1,1225 @@
+2020-12-06 13:04:38 ERROR BaseClass:15 This is the error message
+2020-12-06 13:04:38 INFO  BaseClass:16 This is the info message
+2020-12-06 13:07:00 DEBUG BaseClass:14 This is the debug message
+2020-12-06 13:07:00 ERROR BaseClass:15 This is the error message
+2020-12-06 13:07:00 INFO  BaseClass:16 This is the info message
+2020-12-06 13:08:53 DEBUG BaseClass:14 This is the debug message
+2020-12-06 13:08:53 ERROR BaseClass:15 This is the error message
+2020-12-06 13:08:53 INFO  BaseClass:16 This is the info message
+2020-12-06 13:08:53 ERROR BaseClass:23 java.lang.ArithmeticException: / by zero
+2020-12-06 13:11:23 DEBUG BaseClass:14 This is the debug message
+2020-12-06 13:11:23 ERROR BaseClass:15 This is the error message
+2020-12-06 13:11:23 INFO  BaseClass:16 This is the info message
+2020-12-06 13:11:23 ERROR BaseClass:23 java.lang.ArithmeticException: / by zero
+2020-12-06 13:11:23 ERROR BaseClass:24 [Ljava.lang.StackTraceElement;@815b41f
+2020-12-06 13:11:23 ERROR BaseClass:25 java.lang.ArithmeticException: / by zero
+2020-12-09 00:04:00 INFO  BaseClass:26 User in reqres site.
+2020-12-09 00:04:04 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 00:04:04 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 00:04:06 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 00:04:06 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 00:04:06 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 00:04:06 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 00:04:06 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 00:04:06 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 00:04:06 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 00:04:06 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 00:04:06 DEBUG headers:281 >> Accept: */*
+2020-12-09 00:04:06 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 00:04:06 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 00:04:06 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 00:04:06 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 00:04:06 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 18:36:09 GMT[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Set-Cookie: __cfduid=d326f067323ce4479d2835acefdacb3c31607452569; expires=Thu, 07-Jan-21 18:36:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Age: 4040[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "cf-request-id: 06e53cc8fb0000321882177000000001[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=GV5MqewyzAxLxpTt0SgjuVHwf08V2wLERqmoY0AhAV%2FglkAJNXydE8Xvw1%2B0%2BpEmzIHeowdftWlDV6wB0ETiX3bWncy%2BgqnDbBU%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "CF-RAY: 5fe897219d913218-BOM[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 00:04:06 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 00:04:06 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 00:04:06 DEBUG headers:265 << Date: Tue, 08 Dec 2020 18:36:09 GMT
+2020-12-09 00:04:06 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 00:04:06 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 00:04:06 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 00:04:06 DEBUG headers:265 << Set-Cookie: __cfduid=d326f067323ce4479d2835acefdacb3c31607452569; expires=Thu, 07-Jan-21 18:36:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 00:04:06 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 00:04:06 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 00:04:06 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 00:04:06 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 00:04:06 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 00:04:06 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 00:04:06 DEBUG headers:265 << Age: 4040
+2020-12-09 00:04:06 DEBUG headers:265 << cf-request-id: 06e53cc8fb0000321882177000000001
+2020-12-09 00:04:06 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 00:04:06 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=GV5MqewyzAxLxpTt0SgjuVHwf08V2wLERqmoY0AhAV%2FglkAJNXydE8Xvw1%2B0%2BpEmzIHeowdftWlDV6wB0ETiX3bWncy%2BgqnDbBU%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 00:04:06 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 00:04:06 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 00:04:06 DEBUG headers:265 << Server: cloudflare
+2020-12-09 00:04:06 DEBUG headers:265 << CF-RAY: 5fe897219d913218-BOM
+2020-12-09 00:04:06 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 00:04:06 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 00:04:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 00:04:06 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 00:04:06 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ"
+2020-12-09 00:04:06 DEBUG wire:87  << "[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 00:04:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 00:04:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 00:04:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 00:04:06 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 00:04:06 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 00:04:06 INFO  BaseClass:38 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 00:04:08 INFO  BaseClass:55 Status Code:200
+2020-12-09 01:14:05 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:14:08 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:14:08 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:14:09 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:14:10 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:14:10 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:14:10 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:14:10 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:14:10 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:14:10 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:14:10 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:14:10 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:14:10 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:14:10 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:14:10 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:14:10 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:14:10 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 19:46:13 GMT[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Set-Cookie: __cfduid=d4b6c6c9309c425f1c70ff204858740c81607456773; expires=Thu, 07-Jan-21 19:46:13 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Age: 1030[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "cf-request-id: 06e57ceeec00006acfc11e5000000001[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=sNhgD8rDjACXMULcHLzGeuZuvAbC9oKqdgeL5CL3cZXtXvUAu0Rmv%2BW0aJqhJB%2F7jWVlKFHnEz3DwX%2BJRbuUVt9QOmsVnWVZGek%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "CF-RAY: 5fe8fdc4aa036acf-BOM[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:14:10 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:14:10 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:14:10 DEBUG headers:265 << Date: Tue, 08 Dec 2020 19:46:13 GMT
+2020-12-09 01:14:10 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:14:10 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:14:10 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:14:10 DEBUG headers:265 << Set-Cookie: __cfduid=d4b6c6c9309c425f1c70ff204858740c81607456773; expires=Thu, 07-Jan-21 19:46:13 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:14:10 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:14:10 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:14:10 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:14:10 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:14:10 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:14:10 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:14:10 DEBUG headers:265 << Age: 1030
+2020-12-09 01:14:10 DEBUG headers:265 << cf-request-id: 06e57ceeec00006acfc11e5000000001
+2020-12-09 01:14:10 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:14:10 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=sNhgD8rDjACXMULcHLzGeuZuvAbC9oKqdgeL5CL3cZXtXvUAu0Rmv%2BW0aJqhJB%2F7jWVlKFHnEz3DwX%2BJRbuUVt9QOmsVnWVZGek%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:14:10 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:14:10 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:14:10 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:14:10 DEBUG headers:265 << CF-RAY: 5fe8fdc4aa036acf-BOM
+2020-12-09 01:14:10 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:14:10 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:14:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:14:10 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:14:10 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10]"
+2020-12-09 01:14:10 DEBUG wire:87  << "[0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:14:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:14:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:14:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:14:10 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:14:10 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:14:10 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:14:12 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:15:53 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:15:55 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:15:55 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:15:55 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:15:55 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:15:55 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:15:55 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:15:55 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:15:55 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:15:55 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:15:55 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:15:55 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:15:55 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:15:55 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:15:55 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:15:55 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:15:55 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 19:47:59 GMT[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Set-Cookie: __cfduid=d07328660adea49fcec6234306c4ba5161607456879; expires=Thu, 07-Jan-21 19:47:59 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Age: 1136[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "cf-request-id: 06e57e8bae00002e051b39d000000001[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fPvc%2BDmrjtULTkmv%2BD7Pm1eKvWqed5pnB6k6UGNCzGUv%2BRsmTlrLSq4f0tMcSJZ23F1qGp0nXdhl5j5mkMAjb8%2BAUmWaND3afME%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "CF-RAY: 5fe900591d142e05-BOM[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:15:55 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:15:55 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:15:55 DEBUG headers:265 << Date: Tue, 08 Dec 2020 19:47:59 GMT
+2020-12-09 01:15:55 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:15:55 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:15:55 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:15:55 DEBUG headers:265 << Set-Cookie: __cfduid=d07328660adea49fcec6234306c4ba5161607456879; expires=Thu, 07-Jan-21 19:47:59 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:15:55 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:15:55 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:15:55 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:15:55 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:15:55 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:15:55 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:15:55 DEBUG headers:265 << Age: 1136
+2020-12-09 01:15:55 DEBUG headers:265 << cf-request-id: 06e57e8bae00002e051b39d000000001
+2020-12-09 01:15:55 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:15:55 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fPvc%2BDmrjtULTkmv%2BD7Pm1eKvWqed5pnB6k6UGNCzGUv%2BRsmTlrLSq4f0tMcSJZ23F1qGp0nXdhl5j5mkMAjb8%2BAUmWaND3afME%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:15:55 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:15:55 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:15:55 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:15:55 DEBUG headers:265 << CF-RAY: 5fe900591d142e05-BOM
+2020-12-09 01:15:55 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:15:55 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:15:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:15:55 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:15:55 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ"
+2020-12-09 01:15:55 DEBUG wire:87  << "[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:15:55 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:15:55 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:15:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:15:55 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:15:55 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:15:55 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:15:56 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:23:52 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:23:59 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:24:00 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:24:05 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:24:05 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:24:05 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:24:05 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:24:05 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:24:05 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:24:05 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:24:05 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:24:05 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:24:05 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:24:05 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:24:05 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:24:05 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:24:05 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:24:06 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 19:56:09 GMT[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Set-Cookie: __cfduid=d07e7cef23b602b812ece337c353af7f91607457369; expires=Thu, 07-Jan-21 19:56:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Age: 1626[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "cf-request-id: 06e58606da000031a0d1ab1000000001[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ajVqoEKBktnyY43Rv9J9aA1T%2FzCIQxpxn0gBKi7nssEKZInSCBPk01A1NGa068%2FvFtMLN0jU9KMQgo3Zt0NJ16fOrm4U%2BELkv6w%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "CF-RAY: 5fe90c515f0231a0-BOM[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:24:06 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:24:06 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:24:06 DEBUG headers:265 << Date: Tue, 08 Dec 2020 19:56:09 GMT
+2020-12-09 01:24:06 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:24:06 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:24:06 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:24:06 DEBUG headers:265 << Set-Cookie: __cfduid=d07e7cef23b602b812ece337c353af7f91607457369; expires=Thu, 07-Jan-21 19:56:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:24:06 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:24:06 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:24:06 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:24:06 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:24:06 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:24:06 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:24:06 DEBUG headers:265 << Age: 1626
+2020-12-09 01:24:06 DEBUG headers:265 << cf-request-id: 06e58606da000031a0d1ab1000000001
+2020-12-09 01:24:06 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:24:06 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ajVqoEKBktnyY43Rv9J9aA1T%2FzCIQxpxn0gBKi7nssEKZInSCBPk01A1NGa068%2FvFtMLN0jU9KMQgo3Zt0NJ16fOrm4U%2BELkv6w%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:24:06 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:24:06 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:24:06 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:24:06 DEBUG headers:265 << CF-RAY: 5fe90c515f0231a0-BOM
+2020-12-09 01:24:06 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:24:06 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:24:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:24:06 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:24:06 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10]"
+2020-12-09 01:24:06 DEBUG wire:87  << "[0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:24:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:24:06 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:24:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:24:06 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:24:06 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:24:06 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:24:09 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:25:02 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:25:05 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:25:05 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:25:05 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:25:05 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:25:05 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:25:05 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:25:05 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:25:05 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:25:05 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:25:05 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:25:05 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:25:05 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:25:05 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:25:05 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:25:05 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:25:05 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 19:57:09 GMT[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Set-Cookie: __cfduid=db0c3f71d5e00c81c8ac89fc9842bcb2f1607457429; expires=Thu, 07-Jan-21 19:57:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Age: 1686[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "cf-request-id: 06e586ef5700003212b23d4000000001[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=pKEdiTV6qnx2mfcNp89M2GcI6falp5PmmGJ6rK2YEXz0pZElYaFtMv%2BjpHEOHbD0T%2FnfN7HJQOAvOojQc24HWgp4maCrpCUqqmc%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "CF-RAY: 5fe90dc55ad03212-BOM[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:25:05 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:25:05 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:25:05 DEBUG headers:265 << Date: Tue, 08 Dec 2020 19:57:09 GMT
+2020-12-09 01:25:05 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:25:05 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:25:05 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:25:05 DEBUG headers:265 << Set-Cookie: __cfduid=db0c3f71d5e00c81c8ac89fc9842bcb2f1607457429; expires=Thu, 07-Jan-21 19:57:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:25:05 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:25:05 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:25:05 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:25:05 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:25:05 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:25:05 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:25:05 DEBUG headers:265 << Age: 1686
+2020-12-09 01:25:05 DEBUG headers:265 << cf-request-id: 06e586ef5700003212b23d4000000001
+2020-12-09 01:25:05 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:25:05 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=pKEdiTV6qnx2mfcNp89M2GcI6falp5PmmGJ6rK2YEXz0pZElYaFtMv%2BjpHEOHbD0T%2FnfN7HJQOAvOojQc24HWgp4maCrpCUqqmc%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:25:05 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:25:05 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:25:05 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:25:05 DEBUG headers:265 << CF-RAY: 5fe90dc55ad03212-BOM
+2020-12-09 01:25:05 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:25:05 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:25:05 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:25:05 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:25:05 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@"
+2020-12-09 01:25:05 DEBUG wire:87  << "&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:25:05 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:25:05 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:25:05 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:25:05 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:25:05 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:25:05 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:25:06 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:30:06 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:30:07 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:30:07 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:30:08 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:30:08 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:30:08 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:30:08 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:30:08 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:30:08 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:30:08 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:30:08 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:30:08 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:30:08 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:30:08 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:30:08 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:30:08 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:30:08 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 20:02:12 GMT[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Set-Cookie: __cfduid=d2cab4cb34bea7ee552252d1b6da2c9d11607457732; expires=Thu, 07-Jan-21 20:02:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Age: 1989[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "cf-request-id: 06e58b8e900000d59fdd105000000001[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3JrkmQjOrCMTpXWJJjLGTtdbgpKVnuOOdDr5L3MQb3zXDwcVqBGomVCyp3DPkPoZlSxYF5onXSOd0MeMzWUyR4IJpvUSmzLrRmw%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "CF-RAY: 5fe9152a89b7d59f-BOM[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:30:08 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:30:08 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:30:08 DEBUG headers:265 << Date: Tue, 08 Dec 2020 20:02:12 GMT
+2020-12-09 01:30:08 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:30:08 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:30:08 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:30:08 DEBUG headers:265 << Set-Cookie: __cfduid=d2cab4cb34bea7ee552252d1b6da2c9d11607457732; expires=Thu, 07-Jan-21 20:02:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:30:08 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:30:08 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:30:08 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:30:08 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:30:08 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:30:08 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:30:08 DEBUG headers:265 << Age: 1989
+2020-12-09 01:30:08 DEBUG headers:265 << cf-request-id: 06e58b8e900000d59fdd105000000001
+2020-12-09 01:30:08 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:30:08 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3JrkmQjOrCMTpXWJJjLGTtdbgpKVnuOOdDr5L3MQb3zXDwcVqBGomVCyp3DPkPoZlSxYF5onXSOd0MeMzWUyR4IJpvUSmzLrRmw%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:30:08 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:30:08 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:30:08 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:30:08 DEBUG headers:265 << CF-RAY: 5fe9152a89b7d59f-BOM
+2020-12-09 01:30:08 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:30:08 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:30:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:30:08 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:30:08 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3"
+2020-12-09 01:30:08 DEBUG wire:87  << "[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:30:08 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:30:08 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:30:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:30:08 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:30:08 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:30:08 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:30:10 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:32:08 INFO  BaseClass:32 User in reqres site.
+2020-12-09 01:32:10 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:32:10 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:32:10 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:32:10 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:32:10 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:32:10 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:32:10 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:32:10 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:32:10 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:32:10 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:32:10 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:32:10 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:32:10 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:32:10 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:32:10 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:32:10 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 20:04:14 GMT[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Set-Cookie: __cfduid=d5695bd8b800efdb57e7634f3096729551607457854; expires=Thu, 07-Jan-21 20:04:14 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Age: 2111[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "cf-request-id: 06e58d6bea00002e76b408d000000001[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FnzHVzpjPwOyEG9IqZJLE%2B6PI2%2Baj6wE6me6QkBMqP57eUdf8sJnr9beqFXmPMVYNx4WBliHILjfCFrmkwAOJs%2F4dVOj9XfMlAg%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "CF-RAY: 5fe918264e752e76-BOM[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:32:10 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:32:10 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:32:10 DEBUG headers:265 << Date: Tue, 08 Dec 2020 20:04:14 GMT
+2020-12-09 01:32:10 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:32:10 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:32:10 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:32:10 DEBUG headers:265 << Set-Cookie: __cfduid=d5695bd8b800efdb57e7634f3096729551607457854; expires=Thu, 07-Jan-21 20:04:14 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:32:10 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:32:10 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:32:10 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:32:10 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:32:10 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:32:10 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:32:10 DEBUG headers:265 << Age: 2111
+2020-12-09 01:32:10 DEBUG headers:265 << cf-request-id: 06e58d6bea00002e76b408d000000001
+2020-12-09 01:32:10 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:32:10 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FnzHVzpjPwOyEG9IqZJLE%2B6PI2%2Baj6wE6me6QkBMqP57eUdf8sJnr9beqFXmPMVYNx4WBliHILjfCFrmkwAOJs%2F4dVOj9XfMlAg%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:32:10 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:32:10 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:32:10 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:32:10 DEBUG headers:265 << CF-RAY: 5fe918264e752e76-BOM
+2020-12-09 01:32:10 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:32:10 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:32:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:32:10 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:32:10 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ"
+2020-12-09 01:32:10 DEBUG wire:87  << "[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:32:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:32:10 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:32:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:32:10 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:32:10 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:32:10 INFO  BaseClass:44 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:32:11 INFO  BaseClass:61 Status Code:200
+2020-12-09 01:32:12 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:32:12 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:32:12 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:32:12 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:32:12 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:32:12 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:32:12 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:32:12 DEBUG DefaultClientConnection:274 Sending request: POST /api/users HTTP/1.1
+2020-12-09 01:32:12 DEBUG wire:73  >> "POST /api/users HTTP/1.1[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Content-Length: 32[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:32:12 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:32:12 DEBUG headers:278 >> POST /api/users HTTP/1.1
+2020-12-09 01:32:12 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:32:12 DEBUG headers:281 >> Content-Type: text/plain; charset=ISO-8859-1
+2020-12-09 01:32:12 DEBUG headers:281 >> Content-Length: 32
+2020-12-09 01:32:12 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:32:12 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:32:12 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:32:12 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:32:12 DEBUG wire:87  >> "{"name":"Chaya Prem","job":"BA"}"
+2020-12-09 01:32:13 DEBUG wire:73  << "HTTP/1.1 201 Created[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 20:04:16 GMT[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Content-Length: 51[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Set-Cookie: __cfduid=d268259ae2df82cb6db35f9ceaa9f30d81607457856; expires=Thu, 07-Jan-21 20:04:16 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Etag: W/"33-NaMm6ataAUVHC1a8YX++WOYoX88"[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "cf-request-id: 06e58d747e0000321777228000000001[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=2NZHAmHsrFfDKI%2B%2BLxwt%2Fkax0d379GNnmCaF5mPMK2C3sBndDWMsxDjG1CWn8bCiUjddLq3Ce7jvchDRFqeKB43iTLTv0rV8CEA%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "CF-RAY: 5fe91833ff8a3217-BOM[\r][\n]"
+2020-12-09 01:32:13 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:32:13 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 201 Created
+2020-12-09 01:32:13 DEBUG headers:262 << HTTP/1.1 201 Created
+2020-12-09 01:32:13 DEBUG headers:265 << Date: Tue, 08 Dec 2020 20:04:16 GMT
+2020-12-09 01:32:13 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:32:13 DEBUG headers:265 << Content-Length: 51
+2020-12-09 01:32:13 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:32:13 DEBUG headers:265 << Set-Cookie: __cfduid=d268259ae2df82cb6db35f9ceaa9f30d81607457856; expires=Thu, 07-Jan-21 20:04:16 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:32:13 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:32:13 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:32:13 DEBUG headers:265 << Etag: W/"33-NaMm6ataAUVHC1a8YX++WOYoX88"
+2020-12-09 01:32:13 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:32:13 DEBUG headers:265 << CF-Cache-Status: DYNAMIC
+2020-12-09 01:32:13 DEBUG headers:265 << cf-request-id: 06e58d747e0000321777228000000001
+2020-12-09 01:32:13 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:32:13 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=2NZHAmHsrFfDKI%2B%2BLxwt%2Fkax0d379GNnmCaF5mPMK2C3sBndDWMsxDjG1CWn8bCiUjddLq3Ce7jvchDRFqeKB43iTLTv0rV8CEA%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:32:13 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:32:13 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:32:13 DEBUG headers:265 << CF-RAY: 5fe91833ff8a3217-BOM
+2020-12-09 01:32:13 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:32:13 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:32:13 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:32:13 DEBUG wire:87  << "{"id":"883","createdAt":"2020-12-08T20:04:16.865Z"}"
+2020-12-09 01:32:13 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3290b1a6
+2020-12-09 01:32:13 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:37:14 INFO  BaseClass:34 User in reqres site.
+2020-12-09 01:37:16 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:37:16 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:37:16 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:37:16 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:37:16 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:37:16 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:37:16 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:37:16 DEBUG DefaultClientConnection:274 Sending request: GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:37:16 DEBUG wire:73  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:37:16 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:37:16 DEBUG headers:278 >> GET /api/users?page=2 HTTP/1.1
+2020-12-09 01:37:16 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:37:16 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:37:16 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:37:16 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:37:16 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:37:17 DEBUG wire:73  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 20:09:20 GMT[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Set-Cookie: __cfduid=d0dbf31f690a842550d694bdee842e4e01607458160; expires=Thu, 07-Jan-21 20:09:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Cache-Control: max-age=14400[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "CF-Cache-Status: HIT[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Age: 2417[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "cf-request-id: 06e59218bd000031ff6918c000000001[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=4PLqhvFgDgJHrM7HotAAqenyLlUJBsGD3rF8LUeo8i0BWP%2BM4yN7%2BTut36MuvZGUr6W%2FE%2Fpb%2FkjXLA%2BDIGja1cOOsjpnH7XO%2Fss%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "CF-RAY: 5fe91fa12c9d31ff-BOM[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "Content-Encoding: gzip[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:37:17 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 200 OK
+2020-12-09 01:37:17 DEBUG headers:262 << HTTP/1.1 200 OK
+2020-12-09 01:37:17 DEBUG headers:265 << Date: Tue, 08 Dec 2020 20:09:20 GMT
+2020-12-09 01:37:17 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:37:17 DEBUG headers:265 << Transfer-Encoding: chunked
+2020-12-09 01:37:17 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:37:17 DEBUG headers:265 << Set-Cookie: __cfduid=d0dbf31f690a842550d694bdee842e4e01607458160; expires=Thu, 07-Jan-21 20:09:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:37:17 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:37:17 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:37:17 DEBUG headers:265 << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+2020-12-09 01:37:17 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:37:17 DEBUG headers:265 << Cache-Control: max-age=14400
+2020-12-09 01:37:17 DEBUG headers:265 << CF-Cache-Status: HIT
+2020-12-09 01:37:17 DEBUG headers:265 << Age: 2417
+2020-12-09 01:37:17 DEBUG headers:265 << cf-request-id: 06e59218bd000031ff6918c000000001
+2020-12-09 01:37:17 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:37:17 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=4PLqhvFgDgJHrM7HotAAqenyLlUJBsGD3rF8LUeo8i0BWP%2BM4yN7%2BTut36MuvZGUr6W%2FE%2Fpb%2FkjXLA%2BDIGja1cOOsjpnH7XO%2Fss%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:37:17 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:37:17 DEBUG headers:265 << Vary: Accept-Encoding
+2020-12-09 01:37:17 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:37:17 DEBUG headers:265 << CF-RAY: 5fe91fa12c9d31ff-BOM
+2020-12-09 01:37:17 DEBUG headers:265 << Content-Encoding: gzip
+2020-12-09 01:37:17 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:37:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:37:17 DEBUG wire:73  << "17b[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+2020-12-09 01:37:17 DEBUG wire:87  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]"
+2020-12-09 01:37:17 DEBUG wire:87  << "J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+2020-12-09 01:37:17 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "0[\r][\n]"
+2020-12-09 01:37:17 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:37:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:37:17 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b52b755
+2020-12-09 01:37:17 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:37:17 INFO  BaseClass:46 {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2020-12-09 01:37:18 INFO  BaseClass:63 Status Code:200
+2020-12-09 01:37:18 DEBUG BasicClientConnectionManager:161 Get connection for route {s}->https://reqres.in:443
+2020-12-09 01:37:18 DEBUG DefaultClientConnectionOperator:177 Connecting to reqres.in:443
+2020-12-09 01:37:18 DEBUG RequestAddCookies:123 CookieSpec selected: ignoreCookies
+2020-12-09 01:37:18 DEBUG RequestAuthCache:77 Auth cache not set in the context
+2020-12-09 01:37:18 DEBUG RequestTargetAuthentication:80 Target auth state: UNCHALLENGED
+2020-12-09 01:37:18 DEBUG RequestProxyAuthentication:89 Proxy auth state: UNCHALLENGED
+2020-12-09 01:37:18 DEBUG DefaultHttpClient:682 Attempt 1 to execute request
+2020-12-09 01:37:18 DEBUG DefaultClientConnection:274 Sending request: POST /api/users HTTP/1.1
+2020-12-09 01:37:18 DEBUG wire:73  >> "POST /api/users HTTP/1.1[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Accept: */*[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Content-Length: 32[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Host: reqres.in[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 01:37:18 DEBUG wire:73  >> "[\r][\n]"
+2020-12-09 01:37:18 DEBUG headers:278 >> POST /api/users HTTP/1.1
+2020-12-09 01:37:18 DEBUG headers:281 >> Accept: */*
+2020-12-09 01:37:18 DEBUG headers:281 >> Content-Type: text/plain; charset=ISO-8859-1
+2020-12-09 01:37:18 DEBUG headers:281 >> Content-Length: 32
+2020-12-09 01:37:18 DEBUG headers:281 >> Host: reqres.in
+2020-12-09 01:37:18 DEBUG headers:281 >> Connection: Keep-Alive
+2020-12-09 01:37:18 DEBUG headers:281 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+2020-12-09 01:37:18 DEBUG headers:281 >> Accept-Encoding: gzip,deflate
+2020-12-09 01:37:18 DEBUG wire:87  >> "{"name":"Chaya Prem","job":"BA"}"
+2020-12-09 01:37:19 DEBUG wire:73  << "HTTP/1.1 201 Created[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Date: Tue, 08 Dec 2020 20:09:23 GMT[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Content-Length: 51[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Connection: keep-alive[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Set-Cookie: __cfduid=d47cffd6a565ae909d10fb2f8a112f5a91607458162; expires=Thu, 07-Jan-21 20:09:22 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "X-Powered-By: Express[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Etag: W/"33-8SaBz6aCwyFUXbt3Uyc1Or3ZSN8"[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Via: 1.1 vegur[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "cf-request-id: 06e59220ae00002e6bfa9e7000000001[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BtFtQRmVgmZUMUp31oaLjRcPnrS66oZdkwEQ%2FVPf3FtpdGO3APM42EdcSqVevMfP3rjeWSFyECKJko20fXb3HZXRwhglh3%2F%2B%2FTw%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "Server: cloudflare[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "CF-RAY: 5fe91fade8152e6b-BOM[\r][\n]"
+2020-12-09 01:37:19 DEBUG wire:73  << "[\r][\n]"
+2020-12-09 01:37:19 DEBUG DefaultClientConnection:259 Receiving response: HTTP/1.1 201 Created
+2020-12-09 01:37:19 DEBUG headers:262 << HTTP/1.1 201 Created
+2020-12-09 01:37:19 DEBUG headers:265 << Date: Tue, 08 Dec 2020 20:09:23 GMT
+2020-12-09 01:37:19 DEBUG headers:265 << Content-Type: application/json; charset=utf-8
+2020-12-09 01:37:19 DEBUG headers:265 << Content-Length: 51
+2020-12-09 01:37:19 DEBUG headers:265 << Connection: keep-alive
+2020-12-09 01:37:19 DEBUG headers:265 << Set-Cookie: __cfduid=d47cffd6a565ae909d10fb2f8a112f5a91607458162; expires=Thu, 07-Jan-21 20:09:22 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-12-09 01:37:19 DEBUG headers:265 << X-Powered-By: Express
+2020-12-09 01:37:19 DEBUG headers:265 << Access-Control-Allow-Origin: *
+2020-12-09 01:37:19 DEBUG headers:265 << Etag: W/"33-8SaBz6aCwyFUXbt3Uyc1Or3ZSN8"
+2020-12-09 01:37:19 DEBUG headers:265 << Via: 1.1 vegur
+2020-12-09 01:37:19 DEBUG headers:265 << CF-Cache-Status: DYNAMIC
+2020-12-09 01:37:19 DEBUG headers:265 << cf-request-id: 06e59220ae00002e6bfa9e7000000001
+2020-12-09 01:37:19 DEBUG headers:265 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-12-09 01:37:19 DEBUG headers:265 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BtFtQRmVgmZUMUp31oaLjRcPnrS66oZdkwEQ%2FVPf3FtpdGO3APM42EdcSqVevMfP3rjeWSFyECKJko20fXb3HZXRwhglh3%2F%2B%2FTw%3D"}],"group":"cf-nel","max_age":604800}
+2020-12-09 01:37:19 DEBUG headers:265 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-12-09 01:37:19 DEBUG headers:265 << Server: cloudflare
+2020-12-09 01:37:19 DEBUG headers:265 << CF-RAY: 5fe91fade8152e6b-BOM
+2020-12-09 01:37:19 DEBUG DefaultHttpClient:509 Connection can be kept alive indefinitely
+2020-12-09 01:37:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 Parsing response as: application/json; charset=utf-8
+2020-12-09 01:37:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-09 01:37:19 DEBUG wire:87  << "{"id":"512","createdAt":"2020-12-08T20:09:23.086Z"}"
+2020-12-09 01:37:19 DEBUG BasicClientConnectionManager:200 Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3290b1a6
+2020-12-09 01:37:19 DEBUG BasicClientConnectionManager:225 Connection can be kept alive indefinitely
+2020-12-09 01:37:19 INFO  BaseClass:82 io.restassured.internal.ValidatableResponseImpl@8bd076a
+2020-12-09 01:37:19 INFO  BaseClass:83 created
