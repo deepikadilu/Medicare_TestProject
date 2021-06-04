@@ -52,13 +52,14 @@ public class TestBase {
 		DesiredCapabilities cap= new DesiredCapabilities();
 		//cap.setCapability("deviceName", "Redmi Note 4");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.0 NRD90M");
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Redmi Note 4");
-		cap.setCapability(MobileCapabilityType.UDID, "8ff2ccba0104");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus S API 25 4");
+		cap.setCapability(MobileCapabilityType.UDID, "emulator-5556");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "60");
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "chrome");
-		cap.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
-		//cap.setCapability("appPackage", "io.appium.android.apis");
+		cap.setCapability("appPackage", "in.swiggy.android");
+		cap.setCapability("appActivity", "in.swiggy.android.activities.HomeActivity");
+		
 		
 		URL url= new URL("http://127.0.0.1:4723/wd/hub");
 		
