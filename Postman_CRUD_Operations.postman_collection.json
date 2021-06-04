@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "08077934-b09f-4408-8763-a76c49175644",
+		"name": "Postman_CRUD_Operations",
+		"description": "For validating the Status codes generated for the below requests: \r\n1.Send a GET request using Postman to API and check list of users\r\n2.Sending a POST request using Postman to API to add user and check the response.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_ListUsers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				},
+				"description": "Get Request with Query Param\r\nRequest : /api/users?page=2\r\nResponse : 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_SingleUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://reqres.in/api/user/?id=4",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				},
+				"description": "Request : /api/users/4\r\nResponse : 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_UserNotFound",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/user/?id=15",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "15"
+						}
+					]
+				},
+				"description": "Request: /api/users/15\r\nresponse: 404"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_list<resource>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/abc",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"abc"
+					]
+				},
+				"description": "Request: /api/unknown\r\nResponse : 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Single<resource>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/abc/2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"abc",
+						"2"
+					]
+				},
+				"description": "Request: /api/unknown/2\r\nResponse:200"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Single<Resouce>NotFound",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/abc/20",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"abc",
+						"20"
+					]
+				},
+				"description": "Request: /api/unknown/20\r\nResponse:404"
+			},
+			"response": []
+		},
+		{
+			"name": "Post_CreateUser",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"RichardMorphy\",\r\n    \"job\": \"Team leader\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/412",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"412"
+					]
+				},
+				"description": "Request : /api/users/\r\nResponse: 201"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_Update",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"RichardMorphy\",\r\n    \"job\": \"TestLeader\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/171",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"171"
+					]
+				},
+				"description": "Request : update\r\nResponse : 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users/171",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"171"
+					]
+				},
+				"description": "Response: 204"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
