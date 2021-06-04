@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-19T19:52:19Z" name="Default suite" finished-at="2021-05-19T19:52:40Z" duration-ms="20610">
+  <suite started-at="2021-06-04T18:35:56Z" name="Default suite" finished-at="2021-06-04T18:36:52Z" duration-ms="56167">
     <groups>
     </groups>
-    <test started-at="2021-05-19T19:52:19Z" name="Default test" finished-at="2021-05-19T19:52:40Z" duration-ms="20610">
+    <test started-at="2021-06-04T18:35:56Z" name="Default test" finished-at="2021-06-04T18:36:52Z" duration-ms="56167">
       <class name="com.appium.swiggy.testcases.SwiggyLocationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-05-19T19:52:19Z" name="setup" finished-at="2021-05-19T19:52:40Z" duration-ms="20548" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-06-04T18:35:56Z" name="setup" finished-at="2021-06-04T18:36:51Z" duration-ms="55459" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -46,7 +46,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DeliveryLocationTest()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-05-19T19:52:40Z" name="DeliveryLocationTest" finished-at="2021-05-19T19:52:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="DeliveryLocationTest()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-06-04T18:36:52Z" name="DeliveryLocationTest" finished-at="2021-06-04T18:36:52Z" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeliveryLocationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-05-19T19:52:40Z" name="teardown" finished-at="2021-05-19T19:52:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.appium.swiggy.testcases.SwiggyLocationTest@69930714]" started-at="2021-06-04T18:36:52Z" name="teardown" finished-at="2021-06-04T18:36:52Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
